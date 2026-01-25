@@ -71,7 +71,7 @@ Next we will name the vm osticket-vm and we're going to change the region to Eas
 <img width="795" height="535" alt="screenshot-vmnameandregion" src="https://github.com/user-attachments/assets/019088f2-2600-4f56-94eb-534548b56265" />
 
 
-After setting up our vm name and region, we're going to choose the image file that our vm will run. In this case, we're going to choose windows 11 
+After setting up our vm name and region, we're going to choose the image file that our vm will run. In this case, we're going to choose windows 10
 
 <img width="790" height="523" alt="screenshot-imageselection" src="https://github.com/user-attachments/assets/f755d6bf-ff95-44da-9f96-59980412d3d2" />
 
@@ -107,10 +107,109 @@ After logging in to the vm, we're now ready to start the process of installing o
 <img width="756" height="537" alt="image" src="https://github.com/user-attachments/assets/e229c09e-02be-4b3a-bdff-98bf6d2852de" />
 
 
+
+
+
+<img width="1033" height="911" alt="screenshot-mstsc" src="https://github.com/user-attachments/assets/3771caf6-6827-4501-a9de-5f46b6042156"/>
+
+
+This is what you should see once azure has started the deployment process
+
+
+<img width="756" height="533" alt="screenshot-deployment" src="https://github.com/user-attachments/assets/26f79258-7e2c-4b0b-933b-a3ceda230fd2" />
+
+
+once your vm is made, now its time to remote in to your virtual machine
+
+
+<img width="752" height="512" alt="image" src="https://github.com/user-attachments/assets/9e2d9049-f797-4b0e-998f-ba4b21c44a95" />
+
+
+
+
+
+
 To get to remote desktop, press the windows key if you're using windows and type in mstsc. Next type the address of your public ip address to connect to your vm
 
 
-<img width="1033" height="911" alt="screenshot-mstsc" src="https://github.com/user-attachments/assets/3771caf6-6827-4501-a9de-5f46b6042156" />
+<img width="997" height="567" alt="image" src="https://github.com/user-attachments/assets/ee6c36e1-578a-40f4-bbdb-ba7852eb0821" />
+
+
+
+
+In order to start the installation of osTicket, I'm going to bring the install files from my desktop to the vm
+
+To do this, I'm going to open a browser in microsoft edge and copy the files from my folder
+
+
+
+
+<img width="1061" height="576" alt="screenshot-ostickethome" src="https://github.com/user-attachments/assets/4a124bdb-1244-44cb-81b8-bc730a76c6be" />
+
+
+
+
+
+Once logged in to our vm, we're going to download the osTicket install files inside the VM and start configuring our vm to set up the server for osTicket
+
+
+<<img width="450" height="553" alt="screenshot-osticketinstallfiles" src="https://github.com/user-attachments/assets/60b353ca-72c6-404d-a126-bba4aea39e02" />
+
+
+
+
+
+After clicking on the link, I'm going to select download anyway
+
+
+
+<img width="460" height="560" alt="screenshot-osticketzip" src="https://github.com/user-attachments/assets/49d34fe7-e211-4d89-9716-a87272cd0998" />
+
+
+
+After the file is downloaded, we're going to click on the manilla folder. This brings up the file explorer and if we go to downloads under this pc, we'll see the osTicket install folder
+
+
+
+
+
+<img width="1015" height="573" alt="image" src="https://github.com/user-attachments/assets/971046cd-e2cd-485b-b79d-c26bfa3333d5" />
+
+
+
+
+<img width="1073" height="594" alt="Screenshot 2026-01-25 082659" src="https://github.com/user-attachments/assets/037147fb-61a5-4455-af10-ed5259246051" />
+
+
+
+
+
+Next I'm going to drag the osTicket folder onto the desktop and extract the files onto the desktop. After dragging the files onto the desktop, I'm going to right-click the folder and choose extract all files.                                                            
+
+
+
+When I do that you'll see an additional folder carrying the contents of the unzipped folder.
+
+
+
+
+
+<img width="1088" height="612" alt="screenshot-osticket-unzipped" src="https://github.com/user-attachments/assets/5647d13f-29a5-4c4e-8539-d4922be8db9f" />
+
+
+
+
+To make the process easier, we can delete the zipped folder for osTicket since we've already extracted all of the data out of the zip folder
+
+
+
+
+
+
+<img width="1095" height="612" alt="screenshot-zipfolder-delete" src="https://github.com/user-attachments/assets/5bacb35a-b6a8-499b-8906-13bdf1cfffe6" />
+
+
+
 
 
 
