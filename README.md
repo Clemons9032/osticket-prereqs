@@ -327,6 +327,333 @@ After the rewrite module is finished installing, then I'm going to create a new 
 
 After making the C:\PHP directory next we're going to unzip the PHP 7.3.8 folder and extract the files from this folder
 
+To extract the files from the PHP folder, just right click the folder and click extract all. Instead of extracting everything right away into the default browser, we can click on browse and go to the C:\PHP folder that we just made and choose that as our extraction point
 
 
 
+<img width="1073" height="605" alt="screenshot-phpextraction" src="https://github.com/user-attachments/assets/5ef816cc-5251-4f28-9f92-92e03bfcdaff" />
+
+After that's done, I'm going to install the VC_redist.x86.exe file.
+
+
+
+<img width="1084" height="593" alt="Screenshot 2026-01-25 151632" src="https://github.com/user-attachments/assets/399a3bec-eb89-49e7-87c0-3c726c3afa02" />
+
+
+
+After that's finished installing, I'm going to install the MySQL 5.5.62 executable. Now this is the database that osTicket will use to store our user data for the entire osTicketing system.
+
+
+
+
+<img width="1018" height="567" alt="screenshot-mysql" src="https://github.com/user-attachments/assets/285640f1-d915-4aff-b18c-73038ed70577" />
+
+
+
+
+
+
+
+
+
+
+<img width="259" height="194" alt="Screenshot 2026-01-25 152510" src="https://github.com/user-attachments/assets/cf156337-1edb-41d3-833f-56d740039f37" />
+
+
+Once we're at the setup stage,I'm going to choose typical for the setup type
+
+
+
+
+<img width="263" height="197" alt="Screenshot 2026-01-25 152518" src="https://github.com/user-attachments/assets/b1e0c918-cd38-4f12-9168-d372a7ff494f" />
+
+
+
+
+
+After installtion, the MySQL will open automatically. When prompted, choose standard configuration for the setup type and click next
+
+
+
+
+
+<img width="268" height="195" alt="screenshot-mysqlconfig" src="https://github.com/user-attachments/assets/3eac1bb5-1c4a-415d-a7b6-a3d91569e5c5" />
+
+
+This next part is extremely important. We have to choose a password for the mysql server and we'll need to remember this for later.
+
+
+
+<img width="267" height="197" alt="screenshot-rootmysql" src="https://github.com/user-attachments/assets/e6be40cb-0c89-4b12-b976-b588c75848be" />
+
+
+Just for the sake of this demonstration, I made this password pretty simple but never under any circumstances would you do this in a real-life scenario. It's not best practices to do this.
+
+
+
+<img width="262" height="187" alt="mysql-execute" src="https://github.com/user-attachments/assets/dcb03662-804a-49c1-b407-67ea5871d078" />
+
+
+
+Now hit execute and finish the configuration and install
+
+
+After the install, I'm going to open IIS as an Admin and the best way to do this is by going to the start menu and typing IIS in the search bar.
+
+
+
+<img width="420" height="324" alt="Screenshot 2026-01-25 154124" src="https://github.com/user-attachments/assets/eedbbd72-3a70-4936-b68e-dd31175d73e5" />
+
+
+Click open as Admin and we're going to register PHP within IIS.
+
+
+
+The reason for this is to let the server know that PHP is on the network
+
+
+
+After opening IIS, click on PHP manager
+
+
+
+
+<img width="467" height="547" alt="screenshot-phpmanager" src="https://github.com/user-attachments/assets/5ca586ca-c40e-4794-aecc-c12d9d6f961a" />
+
+
+
+
+
+
+After clicking on PHP manager, we're going to click on register PHP
+
+
+
+<img width="555" height="573" alt="screenshot-phpregister" src="https://github.com/user-attachments/assets/3fed50b2-dd8b-4715-be48-804ad22d7a33" />
+
+
+
+Once we click on register PHP, we have to give IIS the path to the PHP file and we're going to do that by opening another file explorer window and navigating to the php.cgi folder 
+
+To get there, click on the three dots beside the search bar and it'll bring up the file explorer
+
+
+
+
+
+
+<img width="307" height="110" alt="screenshot-pathforphp" src="https://github.com/user-attachments/assets/33fd2357-dc2d-4e03-831a-66f4d93b5b7e" />
+
+
+
+
+
+Once file explorer is open, then'll we'll navigate to the C drive and click on the PHP folder and after clicking on the PHP folder, double-click on the php.cgi executable and it'll provide the path for IIS to identify PHP on its server
+
+
+
+
+
+
+<img width="481" height="535" alt="screenshot-php cgipath" src="https://github.com/user-attachments/assets/4e8e84e5-0391-4b31-a1c3-1e238fdca956" />
+
+
+
+Now we're going to restart the server.
+
+Go back to the IIS homepage and you'll see osticket server 
+
+
+
+
+
+
+
+<img width="551" height="568" alt="screenshot-osticketrestart" src="https://github.com/user-attachments/assets/17f407d6-d790-411a-947c-ca1858d2fa87" />
+
+After on the right side of the screen, I'm going to click stop and once the start button turns green again, I'm going to start the server back up
+
+
+
+Now to install the osTicket file
+
+
+From the osTicketinstallation folder, unzip the osTicket-v1.15.8 and move the upload folder into C:\inetpub\wwwroot
+
+
+
+
+
+
+
+<img width="423" height="328" alt="osticket12" src="https://github.com/user-attachments/assets/d04feffc-7d46-4359-b97f-471bcaab3b09" />
+
+
+
+Extract the folder by right clicking on it and clicking extract all. I'm going to extract the folder to the default destination
+
+
+
+
+
+<img width="608" height="307" alt="screeenshot-extractfolderosticket" src="https://github.com/user-attachments/assets/b8ceafff-55b8-4dd1-9717-48147633954a" />
+
+After extracting the folder, I'm going to click on the newly made unzipped folder and once it's open, we'll see two folders. I'm going to move the upload folder into the C:\inetpub\wwwroot folder
+
+
+
+
+<img width="552" height="562" alt="Screenshot inetpub" src="https://github.com/user-attachments/assets/5915e6a8-17be-4299-a628-7acf5e7954b1" />
+
+
+
+
+We'll see two folders after the extraction called scripts and upload. We're moving the upload folder into the inetpub\root folder. 
+
+
+
+
+
+
+
+<img width="550" height="537" alt="Screenshot-osticket-move-to-root" src="https://github.com/user-attachments/assets/7d45ebde-0672-40c1-ae1c-f9a284eca6e3" />
+
+
+
+
+After moving the uploade folder into the inetpub\wwwroot folder we're going to rename it to osTicket and the name has to be spelled exactly like it's written or it can mess up the configuration
+
+
+
+
+
+
+
+
+
+<img width="530" height="530" alt="screenshot-uploadrename" src="https://github.com/user-attachments/assets/23f00e83-9fae-45ef-9113-98eb281ef307" />
+
+
+
+
+
+
+
+
+To rename the folder, right-click on the upload folder and type in osTicket and continue. Just make sure it's spelled precisely how it's written
+
+
+
+
+
+
+
+
+
+
+
+<img width="524" height="535" alt="Screenshot 2026-01-25 165943" src="https://github.com/user-attachments/assets/78fc3264-59a7-4aad-ab72-f30c8b4b5799" />
+
+
+
+
+Reload the IIS server and stop and start the server again
+
+
+
+
+
+
+<img width="497" height="554" alt="Screenshot 2026-01-25 170550" src="https://github.com/user-attachments/assets/ca613674-eec7-4486-99ec-133b36718531" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="548" height="551" alt="Screenshot 2026-01-25 170805" src="https://github.com/user-attachments/assets/5c9c4e3f-5f06-4484-870e-5c88c5f8fc3e" />
+
+
+
+After that go to sites-> Default-> osTicket then if you look on the right you can see the browse .80 tab. Click that and we can observe the changes in our osTicket
+
+
+
+
+
+
+
+
+
+
+
+<img width="541" height="572" alt="Screenshot 2026-01-25 171012" src="https://github.com/user-attachments/assets/d099ccfc-296e-4732-8410-518c1632ddc0" />
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="512" height="534" alt="Screenshot 2026-01-25 171139" src="https://github.com/user-attachments/assets/a62c3bff-546c-4b3e-ac89-e7e7f632c80d" />
+
+
+
+
+
+After clicking the browse *80 button, it should refresh and the osTicket installer should be present on the actual server
+
+
+
+
+<img width="463" height="538" alt="Screenshot 2026-01-25 171303" src="https://github.com/user-attachments/assets/e5def46d-fbc1-4c2f-8257-034b7418a6d9" />
+
+
+
+
+
+
+
+
+
+
+
+
+ 
