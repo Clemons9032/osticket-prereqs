@@ -210,7 +210,122 @@ To make the process easier, we can delete the zipped folder for osTicket since w
 
 
 
+The next step is to enable IIS in windows. IIS stands Internet Interactive Services and this is what is going to help us turn this vm into our server for osTicket.
 
+
+So normally, if a service is running on a server then when you go to the page it should bring up the server of whatever service that you're running. 
+
+
+For the purposes of this lab, we're going to enter the loopback address and when we do this it should show an error saying this page can't be found. The loopback address is designed to test servers and connectivity on any local server. This address basically refers to your local computer as itself. So once osTicket is set up on the server we can go back and watch how it's changed. 
+
+For now though, go to microsoft edge in the browser and type in 127.0.0.1 and see what is shown.
+
+
+
+<img width="1101" height="601" alt="screenshot-osticket-iis" src="https://github.com/user-attachments/assets/08343f61-9834-47f6-bb97-676202655e85" />
+
+
+
+As you can see, it's showing that the page can't be reached but we're about to change that.
+
+
+
+So to get to IIS, click on the start button and type control panel
+
+
+
+<img width="1067" height="591" alt="screenshot-controlpanel" src="https://github.com/user-attachments/assets/93a15ca4-710d-410d-98f1-00ad55960cfd" />
+
+
+
+Next, click on programs
+
+
+
+
+<img width="1081" height="592" alt="screenshot-programs" src="https://github.com/user-attachments/assets/e2b77c4a-f398-47f9-8d73-8f3a8fd606c5" />
+
+
+
+After clicking programs, next click on programs and features, and turn windows features on or off
+
+
+
+
+<img width="1098" height="606" alt="IIS" src="https://github.com/user-attachments/assets/8a0e626e-7c60-4ddb-944f-041b8018dab3" />
+
+
+
+From here, I'm going to click on the Internet Information Services box and check the box. After checking box, click on the + sign beside the checked box and it'll bring up some sub features. Click on world wide web services and click on application development features
+
+with CGI
+
+
+
+
+<img width="1063" height="597" alt="wwws" src="https://github.com/user-attachments/assets/728016ed-cb8d-4138-a75b-758e3b350321" />
+
+
+
+
+
+<img width="1072" height="572" alt="cgi" src="https://github.com/user-attachments/assets/49f40f66-b7c5-4441-89d2-46b2372b3755" />
+
+
+
+After enabling the features, it's going to start installing the web server.
+
+
+
+<img width="1072" height="565" alt="iis-install" src="https://github.com/user-attachments/assets/ca9fbc37-adb8-4df9-b7dd-08873613f80c" />
+
+
+
+
+If we go back to the webpage of our server, It's going to look different now. When I go and refresh the loopback address, I get the actual server homepage now.
+
+
+
+
+
+<img width="1082" height="573" alt="iss-server" src="https://github.com/user-attachments/assets/8d3b9880-c3ca-4a71-ac1a-94d4b6e4b21e" />
+
+
+Now I'm ready to start the installation process for osTicket. From the osticket install file I'm going to install PHP Manager for IIS
+
+
+
+
+
+
+<img width="575" height="446" alt="Screenshot 2026-01-25 093257" src="https://github.com/user-attachments/assets/6af0fa6b-31d5-427b-ba4a-7c519d609b79" />
+
+
+
+Once PHP Manager for IIS is installed, then the next thing that we're going to install is the Rewrite Module
+
+
+
+
+<img width="1062" height="565" alt="screenshot-rewrite" src="https://github.com/user-attachments/assets/f27f4d85-5d65-4036-a6c1-efac6b4bfe9a" />
+
+
+<img width="1062" height="558" alt="Screenshot 2026-01-25 093452" src="https://github.com/user-attachments/assets/6c08f485-b007-476b-9cb7-3adf06358e43" />
+
+
+
+<img width="1063" height="576" alt="screenshot rewrite-finish" src="https://github.com/user-attachments/assets/144b9fe6-d969-4073-8ebe-09c34b108503" />
+
+
+
+After the rewrite module is finished installing, then I'm going to create a new directory called C:\PHP
+
+
+
+<img width="1057" height="560" alt="screenshot-php" src="https://github.com/user-attachments/assets/b024f797-5467-45cf-b549-88072644d0e5" />
+
+
+After making the C:\PHP directory next we're going to unzip the PHP 7.3.8 folder and extract the files from this folder
 
 
 
