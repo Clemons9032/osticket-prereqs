@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial is a setup and install guide for osTicket ticketing systems
 
 
 <h2>Video Demonstration</h2>
