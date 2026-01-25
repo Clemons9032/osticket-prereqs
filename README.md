@@ -47,6 +47,19 @@ To get to the virtual machines, just go to the search bar at the top of the page
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once you're on the virtual machines homepage, click and create and you'll come to the configuration screen for your vm.
 </p>
 <br />
+<img width="792" height="532" alt="screenshots-vmconfig" src="https://github.com/user-attachments/assets/224a8a58-0d06-4b3f-8b85-a6a63e6c5dda" />
+
+You'll notice subscription in the setup screen. Brand new users get a free trial. I no longer qualify so it'll say pay as you go for me
+
+
+
+Next is making a new resource group. Our resource group is going to be named osTicket for the sake of this project
+
+
+
+
+<img width="801" height="512" alt="Screenshot-rgcreation" src="https://github.com/user-attachments/assets/0c3a31fd-d6ff-44f3-836e-e017bef1c69d" />
+
