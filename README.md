@@ -31,29 +31,14 @@ This project is a tuturiol meant to setup and install a guide for osTicket ticke
 - Azure Account
 
 <h2>High-Level Deployment and Installation Steps</h2>
-
-<img width="927" height="532" alt="screenshots-for-portfolio-osticket-prereqs" src="https://github.com/user-attachments/assets/7ee2f78a-9000-43d9-9dd1-0ac341a85d70" />
-
-
-</p>
-<br />
-<img width="1893" height="1051" alt="Screenshot 2026-01-25" src="https://github.com/user-attachments/assets/3c2bd0e5-300a-4d56-a8e4-c1390699834a" />
+[!Important]
+Each step will include written instructions as well as corresponding screenshots.
+Expand the See screenshots section to view the images.
 
 
+1. Create a Windows 10 VM
 
-</p>
-<br />
-
-<p>
-<img <img width="582" height="517" alt="Screenshot-vmhomepage" src="https://github.com/user-attachments/assets/bdc9d6b0-a8d0-4a5a-8669-545dc0fac97d" />
-
-
-</p>
-<p>
-Once you're on the virtual machines homepage, click and create and you'll come to the configuration screen for your vm.
-</p>
-<br />
-<img width="792" height="532" alt="screenshots-vmconfig" src="https://github.com/user-attachments/assets/224a8a58-0d06-4b3f-8b85-a6a63e6c5dda" />
+The first step is to make our vm in the azure portal. Click on Virtual machines and select create new. We're going to make a Windows 10 vm. For the sake of this project, I'm going to name the vm osTicket and I'm going to
 
 You'll notice subscription in the setup screen. Brand new users get a free trial. I no longer qualify so it'll say pay as you go for me
 
