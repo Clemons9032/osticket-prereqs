@@ -52,14 +52,10 @@ Expand the See screenshots section to view the images.
 <p>With the VM created, we're going to Remote Desktop Protocol into the VM and start installation of osTicket. In order to RDP, we need the public IP address of the VM. Go to the portal and click on Virtual Machines. You'll see the osTicket virtual machine status. If you look on the right side of the screen you'll see the public IP address. Copy that and click on the windows icon. Type in Remote Desktop Protocol and open the application. Type in the public ip address and press enter.
 
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step1b.png" >
+<img src="images/osTicket-Step1c.png" >
 
-
-
-
-
-
-
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step1d.png" >
 
 
 
