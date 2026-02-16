@@ -1,10 +1,10 @@
-# osticket-prereqs
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial is a setup and install guide for osTicket ticketing systems
+This project is a tuturiol meant to setup and install a guide for osTicket ticketing systemIt'll be built in microsoft azure for project ease and accessibility. It'll also be accompanied with a video highlighting install process. 
 
 
 <h2>Video Demonstration</h2>
@@ -13,13 +13,16 @@ This tutorial is a setup and install guide for osTicket ticketing systems
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+[![My Skills](https://skillicons.dev/icons?i=azure,windows,)](https://skillicons.dev)
+
+-Microsoft Azure
+-Remote Desktop Protocol
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11</b> (21H2)
+[![My Skills](https://skillicons.dev/icons?i=windows,)](https://skillicons.dev)
+
 
 <h2>List of Prerequisites</h2>
 
