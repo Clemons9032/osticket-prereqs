@@ -42,7 +42,9 @@ Expand the See screenshots section to view the images.
 
 The first step is to make our vm in the azure portal. Click on Virtual machines and select create new. We're going to make a Windows 10 vm. For the sake of this project, I'm going to name the vm osTicket and I'm going to I'm going to place this vm in East US 2. Next, we're going to choose windows 10 operating system. After that has been selected, we're going to make a username and account for to login to our vm. you can use whatever credentials you want to use for that. After you've chosen your credentials, continue to the bottom and make sure to check box asking if for windows 10/11 license.
 
-Once vm is deployed, remote desktop into the vm by getting the public ip address of the vm and using that to remote into the vm
+<details><summary>See screenshots</summary>
+
+<img width="1918" height="1078" alt="osTicket-Step1a" src="https://github.com/user-attachments/assets/9d8435f6-c48f-499f-af94-d3c9256dcc8c" />
 
 
 After logging in to the vm, we're now ready to start the process of installing osTicket. 
