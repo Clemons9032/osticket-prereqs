@@ -55,6 +55,9 @@ With the VM created, we're going to Remote Desktop Protocol into the VM and star
 <img width="1918" height="1078" alt="osTicket-Step1a" src="https://github.com/user-attachments/assets/9d8435f6-c48f-499f-af94-d3c9256dcc8c" />  
 
 
+<details><summary>See screenshots</summary>
+
+<img width="1918" height="1078" alt="osTicket-Step1b" src="https://github.com/user-attachments/assets/98ba01e8-55e6-4290-b42d-736435ffdfdf" />
 
 
 
