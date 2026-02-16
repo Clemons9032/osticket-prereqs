@@ -81,8 +81,9 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
 <img src="images/osTicket-Step2d.png" >
 </details>
 
-> [!Note]
->So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
+**Notes**
+
+So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
 
 <p>Next is to install PHP manager for IIS from the osTicket-Install Files that we're extracted to the desktop. Next we're going to install the Rewrite Module (rewrite_amd64_en-US.msi). Once that's installed, we're going to create a directory named PHP on our C:\ drive. Next we're going to 
 
