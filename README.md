@@ -61,11 +61,29 @@ Expand the See screenshots section to view the images.
 <h3>2. INSTALLING osTICKET. </h3> 
 
 Now that we've logged in, the first thing to do is to bring the osTicket install files over to the vm. I've already gathered the necessary install files for osTicket beforehand.
-<details><summary>See screenshots</summary<summary></summary>
+
+<details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2a.png" >
 </details>
+<p> We're going to go to the control panel and click on programs and click on Turn windows features on or off.
 
-<p> We're going to go to the control panel and click on programs and click on Turn windows features on or off. Go to Internet Information Services and click the box beside it. Next under IIS look for World Wide Web Services and click on the dropbox and click on Application Development Features and click on enable CGI.
+ <details><summary>See screenshots</summary>
+ <img src="images/osTicket-Step2b.png" >
+
+ <details><summary>See screenshots</summary>
+ <img src="images/osTicket-Step2c.png" >
+ </details>
+
+ <p>Go to Internet Information Services and click the box beside it. Next under IIS look for World Wide Web Services and click on the dropbox and click on Application Development Features and click on enable CGI.
+
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2d.png" >
+</details>
+<p>
+
+ 
+
+
 
 
 
