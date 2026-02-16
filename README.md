@@ -13,10 +13,10 @@ This project is a tuturiol meant to setup and install a guide for osTicket ticke
 
 <h2>Environments and Technologies Used</h2>
 
-[![My Skills](https://skillicons.dev/icons?i=azure,windows,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=azure)](https://skillicons.dev)
 
--Microsoft Azure
--Remote Desktop Protocol
+- Microsoft Azure
+- Remote Desktop Protocol
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -26,21 +26,21 @@ This project is a tuturiol meant to setup and install a guide for osTicket ticke
 
 <h2>List of Prerequisites</h2>
 
-- virtual machines
+ Virtual machines
 - osTicket install folders/dependencies
-- azure account
+- Azure Account
 
-<h2>Installation Steps</h2>
+<h2>High-Level Deployment and Installation Steps</h2>
 
 <img width="927" height="532" alt="screenshots-for-portfolio-osticket-prereqs" src="https://github.com/user-attachments/assets/7ee2f78a-9000-43d9-9dd1-0ac341a85d70" />
 
-So the first step is to set up an azure virtual machine
+
 </p>
 <br />
 <img width="1893" height="1051" alt="Screenshot 2026-01-25" src="https://github.com/user-attachments/assets/3c2bd0e5-300a-4d56-a8e4-c1390699834a" />
 
 
-To get to the virtual machines, just go to the search bar at the top of the page and type in virtual machines. Click on virtual machines and you'll get taken to the create virtual machines page
+
 </p>
 <br />
 
