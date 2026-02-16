@@ -40,7 +40,13 @@ Expand the See screenshots section to view the images.
 
 <h3>1. CREATE WINDOWS 10 VM <h3>
 
-The first step is to make our vm in the azure portal. Click on Virtual machines and select create new. We're going to make a Windows 10 vm. For the sake of this project, I'm going to name the vm osTicket and I'm going to I'm going to place this vm in East US 2. Next, we're going to choose windows 10 operating system. After that has been selected, we're going to make a username and account for to login to our vm. you can use whatever credentials you want to use for that. After you've chosen your credentials, continue to the bottom and make sure to check box asking if for windows 10/11 license. After that, just click on Review + Create and deploy the virtual machine.
+The first step is to make our vm in the azure portal. Click on Virtual machines and select create new. I'm going to name the VM osTicket and I'm going to I'm going to place this VM in region East US 2. Next, we're going to choose windows 10 operating system. After that has been selected, we're going to make a username and account for to login to our vm. After you've chosen your credentials, continue to the bottom and make sure to check box asking if for windows 10/11 license. After that, just click on Review + Create.
+>  [!Note]
+>For accessibility purposes, username is labuser, password is password123. You would not do this in a WORK ENVIRONMENT
+
+With the VM created, we're going to Remote Desktop Protocol into the VM and start installation of osTicket.
+
+<h3>
 
 <details><summary>See screenshots</summary>
 
