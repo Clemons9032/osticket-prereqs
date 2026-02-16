@@ -60,11 +60,12 @@ Expand the See screenshots section to view the images.
 
 <h3>2. INSTALLING osTICKET. </h3> 
 
-Now that we've logged in, the first thing to do is to bring the osTicket install files over to the vm. I've already gathered the necessary install files for osTicket beforehand.
+Now that we've logged in, the first thing to do is to bring the osTicket install files over to the vm and unzip them unto the desktop. I've already gathered the necessary install files for osTicket beforehand. Right-click on the osTicket-Install folder and click extract all and make sure it's extracted to the desktop.
 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2a.png" >
 </details>
+
 <p> We're going to go to the control panel and click on programs and click on Turn windows features on or off.
 
  <details><summary>See screenshots</summary>
@@ -79,7 +80,8 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2d.png" >
 </details>
-<p>
+
+<p>Now we're going to o
 
  
 
