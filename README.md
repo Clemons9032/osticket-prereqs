@@ -78,7 +78,7 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
  <p>Go to Internet Information Services and click the box beside it. Next under IIS look for World Wide Web Services and click on the dropbox and click on Application Development Features and click on enable CGI.
 
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2d.png" >
+<img src="images/osTicket-IIS.png" >
 </details>
 
 **Notes**
@@ -91,6 +91,9 @@ So what is happening is after enabling the IIS feature, we're now able to go in 
 
 <p>Next is to install PHP manager for IIS from the osTicket-Install Files that we're extracted to the desktop. Next we're going to install the Rewrite Module (rewrite_amd64_en-US.msi). Once that's installed, we're going to create a directory named PHP on our C:\ drive. Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 
+ <details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2f.png
+ 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2g.png" >
 
