@@ -216,6 +216,7 @@ Next click on disable inheritance.
 <img src="images/osTicket-Step2RR.png" >
 
 A popup will appear asking to either convert inherited permissions into explicit permissions on this object or remove all inherited permissions from this object. For the sake of the lab, we're going to choose to remove all inherited permissions from this object. You would **never** click this option to remove all inheritance permissions in an actual production environment 
+
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2SS.png" >
 
@@ -227,13 +228,27 @@ For the principal, we're going to name the principal everyone and allow full per
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2UU.png" >
 
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2VV.png" >
+
+After setting up our permissions, we can go back to the osTicket browser and finish the setup
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2XX.png" >
+
+You can name your helpdesk whatever you like. I went with my name and a fake email for the default. The default email will be the email that customers will use to send you tickets
 
 
 
 
 
 
-.
+
+
+
+
+
+
+
 
 
 
