@@ -121,7 +121,7 @@ Now make sure to pick the typical option for the installation process
 
 Next launch the configuration wizard after the install has finished
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2n.png" >
+<img src="images/osTicket-MySQL setup.png" >
 
 
 
