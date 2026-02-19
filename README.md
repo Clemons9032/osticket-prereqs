@@ -82,9 +82,8 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
 </details>
 
 
-**Notes**
-
-So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
+> [!Notes]
+>So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-IIS.png" >
