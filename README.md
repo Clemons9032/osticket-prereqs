@@ -23,7 +23,7 @@ This project is a tuturiol meant to setup and install a guide for osTicket ticke
 
 [![My Skills](https://skillicons.dev/icons?i=windows,)](https://skillicons.dev)
 
--windows10
+- Windows10
 
 
 <h2>List of Prerequisites</h2>
