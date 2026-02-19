@@ -105,12 +105,26 @@ Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 <img src="images/osTicket-Step2j.png" >
 
 After the PHP folder has been extracted, the next step is to install the VC_redist.x86.exe from the osTicket install files folder.
-<details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2m.png" >
+
+<img width="482" height="299" alt="osTicket-Step2m" src="https://github.com/user-attachments/assets/b5f60e21-668f-4c01-82fb-c8c70886061d" />
+
+
+
 
 Once the VC_redist.x86.exe file has been installed, the next step is to install the MySQL 5.5.62 file from the osTicket install folder
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2k.png" >
+
+Now make sure to pick the typical option for the installation process
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2l.png" >
+
+Next launch the configuration wizard after the install has finished
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2n.png" >
+
+
+
 
  
 
