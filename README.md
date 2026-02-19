@@ -97,9 +97,8 @@ Next we're going to install the Rewrite Module (rewrite_amd64_en-US.msi).
 <img src="images/osTicket-Step2g.png" >
 
 Once that's installed, we're going to create a directory named PHP on our C:\ drive. Next we're going to unzip the PHP folder into the newly created C:/PHP folder
-
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2g.png" >
+<img src="images/osTicket-Step2h.png" >
 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2h.png" >
