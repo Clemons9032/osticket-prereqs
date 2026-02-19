@@ -88,10 +88,18 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-IIS.png" >
 
-<p>Next is to install PHP manager for IIS from the osTicket-Install Files that we're extracted to the desktop. Next we're going to install the Rewrite Module (rewrite_amd64_en-US.msi). Once that's installed, we're going to create a directory named PHP on our C:\ drive. Next we're going to unzip the PHP folder into the newly created C:/PHP folder
+<p>Next is to install PHP manager for IIS from the osTicket-Install Files that we're extracted to the desktop.
+ <details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2f.png" >
+
+Next we're going to install the Rewrite Module (rewrite_amd64_en-US.msi).
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2g.png" >
+
+Once that's installed, we're going to create a directory named PHP on our C:\ drive. Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2f.png" >
+<img src="images/osTicket-Step2g.png" >
 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2h.png" >
