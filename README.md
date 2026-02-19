@@ -172,6 +172,28 @@ The next step is to Open IIS as an Admin and Register PHP from within IIS.
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2GG.png" >
 
+Next we're going to reload the IIS menu and restart the server again
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2HH.png" >
+
+If you go to browse *.80 we'll see that on the webpage we have some extensions that are not enabled for osTicket to function properly.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2II.png" >
+
+In order to enable these extensions, go back into IIS-> sites-> Default->osTicket
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2JJ.png" >
+
+Click on the enable or disable extension and enable php_imap.dll->php_intl.dll->php_opache.dll and refresh the osTicket site and monitor the changes.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2KK.png" >
+
+
+
+
+
+
+
 
 
 
