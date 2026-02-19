@@ -100,11 +100,12 @@ Once that's installed, we're going to create a directory named PHP on our C:\ dr
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2h.png" >
 
+Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 <details><summary>See screenshots</summary>
-<img src="images/osTicket-Step2h.png" >
-
-<details><sumamry>See screenshots</sumamry>
 <img src="images/osTicket-Step2j.png" >
+
+After the PHP folder has been extracted, the next step is to install the VC_redist.x86.exe from the osTicket install files folder.
+
 
 
  
