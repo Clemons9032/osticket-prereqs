@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This project is a tuturiol meant to setup and install a guide for osTicket ticketing systemIt'll be built in microsoft azure for project ease and accessibility. It'll also be accompanied with a video highlighting install process. 
+This project is a tuturiol meant to setup and install a guide for osTicket ticketing system.It'll be built in microsoft azure for project ease and accessibility. It'll also be accompanied with a video highlighting install process. 
 
 
 <h2>Video Demonstration</h2>
