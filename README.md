@@ -82,8 +82,8 @@ Now that we've logged in, the first thing to do is to bring the osTicket install
 </details>
 
 
-> [!Notes]
->So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
+**Notes**
+So what is happening is after enabling the IIS feature, we're now able to go in and configure our server for osTicket. If you would type in 127.0.0.1 in a web browser then you could see the change in the server from the time IIS was disabled to the time after it's enabled and notice the change of the server. 
 
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-IIS.png" >
@@ -105,8 +105,12 @@ Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 <img src="images/osTicket-Step2j.png" >
 
 After the PHP folder has been extracted, the next step is to install the VC_redist.x86.exe from the osTicket install files folder.
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2m.png" >
 
-
+Once the VC_redist.x86.exe file has been installed, the next step is to install the MySQL 5.5.62 file from the osTicket install folder
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2k.png" >
 
  
 
