@@ -147,9 +147,18 @@ The next step is to Open IIS as an Admin and Register PHP from within IIS.
 
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2y.png" >
-</details>
 
-<p>
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2AA.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2BB.png" >
+
+
+<p>After registering the PHP in the PHP manager, It's time to install osTicket. From the osTicket install folder, extract the osTicket-v1.15.8.zip and we're going to copy the upload folder that's going to be in the new osTicket folder into the C:\inetpub\wwwroot. Within the directory, we're going to rename the upload folder to "osTicket"
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2z.png" >
+
 
 
 
