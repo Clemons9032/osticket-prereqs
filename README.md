@@ -23,6 +23,8 @@ This project is a tuturiol meant to setup and install a guide for osTicket ticke
 
 [![My Skills](https://skillicons.dev/icons?i=windows,)](https://skillicons.dev)
 
+-windows10
+
 
 <h2>List of Prerequisites</h2>
 
@@ -105,10 +107,8 @@ Next we're going to unzip the PHP folder into the newly created C:/PHP folder
 <img src="images/osTicket-Step2j.png" >
 
 After the PHP folder has been extracted, the next step is to install the VC_redist.x86.exe from the osTicket install files folder.
-
-<img width="482" height="299" alt="osTicket-Step2m" src="https://github.com/user-attachments/assets/b5f60e21-668f-4c01-82fb-c8c70886061d" />
-
-
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2m.png" >
 
 
 Once the VC_redist.x86.exe file has been installed, the next step is to install the MySQL 5.5.62 file from the osTicket install folder
@@ -228,6 +228,7 @@ For the principal, we're going to name the principal everyone and allow full per
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2UU.png" >
 
+
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2VV.png" >
 
@@ -235,7 +236,68 @@ After setting up our permissions, we can go back to the osTicket browser and fin
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2XX.png" >
 
-You can name your helpdesk whatever you like. I went with my name and a fake email for the default. The default email will be the email that customers will use to send you tickets
+You can name your helpdesk whatever you like. I went with my name and a fake email for the default. The default email will be the email that customers will use to send you tickets.
+
+Now the last steps before osTicket is completely configured is to install Heidi SQL. So we're going to go back to the osTicket-Installation-Files folder click on the Heidi SQL application.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2YY.png" >
+
+Continue through the setup
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2ZZ.png" >
+
+Click next again on the next screen
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.1.png" >
+
+Continue again
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.2.png" >
+
+Now click install
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.3.png" >
+
+Once Heidi is installed, it should open automatically. After it's open click on add new and we're going to type in root for the password. It's the same password that was used in the earlier steps when the MySQL was installed
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.4.png" >
+
+once connected, we're going to create a new database. Just right click on the left side of the menu and select new database
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.5.png" >
+
+once you're in the create database menu, we're going to name the database osTicket
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.6.png" >
+
+Once that's created, head back to the osTicket browser and finish the installation. We're going to put osTicket for the database name and the username and password is root. Once that's completed, osTicket has been fully installed. 
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.7.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2.8.png" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
