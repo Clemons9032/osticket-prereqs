@@ -276,7 +276,7 @@ Once that's created, head back to the osTicket browser and finish the installati
 
 
 <details><summary>See screenshot</summary>
-<img src="images/osTicket-Step2.8.png" >
+<img src="images/osTicket-Step.2.8.png" >
 
 
 
