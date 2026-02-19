@@ -119,9 +119,42 @@ Now make sure to pick the typical option for the installation process
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2l.png" >
 
-Next launch the configuration wizard after the install has finished
+Next launch the configuration wizard after the install has finished and choose the standard configuration to continue the setup
 <details><summary>See screenshots</summary>
 <img src="images/osTicket-Step2r.png" >
+
+On the next screen, just click continue and go to the following screen
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2s.png" >
+
+So for this next step, we're setting the password that's going to be used to log into our MySQL server once it's configured. Now you wouldn't do this in a production environment but for the sake of time, I'm going to make the password root. This is very bad so make sure not do this in an actual production environment.
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2t.png" >
+
+On the next screen, just click execute and wait for the configuration to complete.
+<details><summary>See screenshots</summary>
+<img src="images/osTicket-Step2u.png" >
+
+The next step is to Open IIS as an Admin and Register PHP from within IIS.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2v.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2w.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2x.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2y.png" >
+</details>
+
+<p>
+
+
+
+
+
 
 
 
