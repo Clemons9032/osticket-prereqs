@@ -188,6 +188,57 @@ Click on the enable or disable extension and enable php_imap.dll->php_intl.dll->
 <details><summary>See screenshot</summary>
 <img src="images/osTicket-Step2KK.png" >
 
+Next we're going to rename the ost-sampleconfig.php to ost-config.php and in order to do that, we need to go back into the C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2LL.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2MM.png" >
+
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2NN.png" >
+<details>
+
+<p>Next we need to change the permissions to allow osTicket permission to the configuration files. In order to do that, right-click on the ost-config.php file that we just renamed and choose properties.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2OO.png" >
+
+Next we're going to go to the security tab and disable inheritance. Normally we would never disable inheritance but for this example, I'm going to make it as easy as possible so the configuration is intact
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2PP.png" >
+
+Next we're going to click on advanced under the security tab.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2QQ.png" >
+
+Next click on disable inheritance.
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2RR.png" >
+
+A popup will appear asking to either convert inherited permissions into explicit permissions on this object or remove all inherited permissions from this object. For the sake of the lab, we're going to choose to remove all inherited permissions from this object. You would **never** click this option to remove all inheritance permissions in an actual production environment 
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2SS.png" >
+
+Next we're going to select a principal 
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2TT.png" >
+
+For the principal, we're going to name the principal everyone and allow full permissions control
+<details><summary>See screenshot</summary>
+<img src="images/osTicket-Step2UU.png" >
+
+
+
+
+
+
+
+.
+
+
+
+
+
 
 
 
