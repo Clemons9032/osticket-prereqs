@@ -44,7 +44,7 @@ Expand the See screenshots section to view the images.
 <p>The first step is to make our vm in the azure portal. Click on Virtual machines and select create new. I'm going to name the VM osTicket and I'm going to I'm going to place this VM in region East US 2. Next, we're going to choose windows 10 operating system. After that has been selected, we're going to make a username and account for to login to our vm. After you've chosen your credentials, continue to the bottom and make sure to check box asking if for windows 10/11 license. After that, just click on Review + Create.
 
 <details><summary>See screenshots</summary>
-<img src="/images/osTicket-Step1a.png" >
+<img src="images/osTicket-Step1a.png" >
 </details>
 
 <details><summary>See screenshots</summary>
